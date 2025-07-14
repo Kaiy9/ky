@@ -396,5 +396,15 @@ export default defineConfig({
 
 })
 
+// .vitepress/config.js
+import { defineConfig } from 'vitepress'
 
+export default defineConfig({
+  // ... 其他配置
+
+  // 👇 **添加或修改这一行**
+  base: '/ky-vitepress/', // 格式为 '/<你的仓库名>/'
+
+  // ... 其他配置
+})
 
