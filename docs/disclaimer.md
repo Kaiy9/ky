@@ -8,18 +8,5 @@
 2. 用户在使用本站提供的信息时，应当遵守当地法律法规。
 3. 本站不对用户使用本站信息所产生的任何后果承担责任。
 
-## 版权声明
 
-本站内容采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可协议进行许可。
-
-## 联系我们
-
-如有任何问题，请通过以下方式联系我们：
-
-- 邮箱：contact@ygpy.net
-- GitHub：[https://github.com](https://github.com)
-
----
-
-最后更新：2025年7月10日
 
