@@ -346,7 +346,7 @@ export default defineConfig({
   outDir: './.vitepress/dist',
   
   // 基础路径
-  base: '/',
+  base: '/ky/',
   
   // 开发服务器配置
   server: {
@@ -375,7 +375,7 @@ export default defineConfig({
 
   // 新增：评论系统配置 (以Giscus为例，需要安装并配置)
  giscus: {
-  repo: 'Kaiy9/ky-vitepress',
+  repo: 'Kaiy9/ky',
   repoId: 'R_kgDOPMO9-w',
   category: 'Announcements',
   categoryId: 'DIC_kwDOPMO9-84Cs7o9',
