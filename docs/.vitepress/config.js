@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'zh-CN',
 
    // 基础路径 - 根据部署环境调整
-  base: '/ky-vitepress/',
+  base: '/ky/',
   
   // 多语言配置
   locales: {
@@ -23,11 +23,11 @@ export default defineConfig({
       description: 'Your first stop for making and saving money! Focus on sharing the latest deals, free offers and useful tools.',
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/en/' },
-          { text: 'Deals', link: '/en/xianbao/' },
-          { text: 'Freebies', link: '/en/yangmao/' },
+          { text: 'Home', link: '/index/' },
+          { text: 'Deals', link: '/线报/福利活动/' },
+          { text: 'Freebies', link: '/羊毛/福利活动/' },
           { text: 'Tools', link: '/en/tools/' },
-          { text: 'About', link: '/en/about/' }
+          { text: 'About', link: '/海纳百川/网址导航/' }
         ]
       }
     }
