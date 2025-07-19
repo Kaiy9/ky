@@ -167,7 +167,7 @@ export default defineConfig({
           { text: '资源分享', link: '/节流/资源分享' }
         ]
       },
-      { text: '网址导航与软件', link: '/海纳百川/网址导航' },
+      { text: '网址导航与软件', link: '/nav' },
     ],
     
     // 侧边栏
@@ -291,16 +291,18 @@ export default defineConfig({
         timeStyle: 'medium'
       }
     },
-    
+       
+  
     // 文档页脚
     docFooter: {
       prev: '上一页',
       next: '下一页'
     },
     
-    // 大纲
+     /* 右侧大纲配置 */
     outline: {
-      label: '页面导航'
+      level: 'deep',
+      label: '目录',
     },
     
     // 返回顶部
@@ -345,8 +347,6 @@ export default defineConfig({
   // 输出目录
   outDir: './.vitepress/dist',
   
-  // 基础路径
-  base: '/ky/',
   
   // 开发服务器配置
   server: {
